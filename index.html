@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All in One Web Hub</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+      color: #00ffff;
+      text-shadow: 0 0 5px #00ffff;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 420px;
+      margin: 40px auto;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      color: #333;
+      padding: 12px 20px;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, background 0.3s ease;
+      flex: 0 0 calc(50% - 20px);
+      box-sizing: border-box;
+    }
+    .links a:hover {
+      transform: scale(1.05);
+      background: #e0f7fa;
+    }
+    .links img {
+      width: 30px;
+      height: 30px;
+    }
+    footer {
+      margin: 50px 0 20px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+    #secretPage {
+      display: none;
+      padding: 20px;
+    }
+    #secretPage h1 {
+      color: #ff4081;
+    }
+    #backButton {
+      background: #ff4081;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="homePage">
+  <h1>All In One</h1>
+  <div class="links">
+      <a href="https://google.com" target="_blank">
+      <img src="https://img.icons8.com/fluency/48/google-logo.png"/> Google
+    </a>
+    <a href="https://facebook.com" target="_blank">
+      <img src="https://img.icons8.com/fluency/48/facebook-new.png"/> Facebook
+    </a>
+    <a href="https://youtube.com" target="_blank">
+      <img src="https://img.icons8.com/fluency/48/youtube-play.png"/> YouTube
+    </a>
+    <a href="  https://music.youtube.com/ " target="_blank">
+      <img src=" https://img.icons8.com/?size=100&id=V1cbDThDpbRc&format=png&color=000000  "/> Yt Music
+    </a>
+    
+    <a href="https://web.telegram.org" target="_blank">
+      <img src="https://img.icons8.com/fluency/48/telegram-app.png"/> Telegram
+    </a>
+    <a href="  https://web.whatsapp.com/ " target="_blank">
+      <img src="  https://img.icons8.com/?size=100&id=16712&format=png&color=000000 "/> whatsapp
+    </a>
+    <a href="https://gemini.google.com" target="_blank">
+      <img src="https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000"/> Google Gemini
+    </a>
+    <a href="https://chat.openai.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/512px-ChatGPT_logo.svg.png"/> ChatGPT
+    </a>
+    <a href="  https://chat.deepseek.com/ " target="_blank">
+      <img src="   https://img.icons8.com/?size=100&id=YWOidjGxCpFW&format=png&color=000000"/> Deepseek
+    </a>
+    <a href="  https://grok.com/ " target="_blank">
+      <img src="  https://img.icons8.com/?size=100&id=USGXKHXKl9X7&format=png&color=000000 "/> Grok
+    </a>
+    <a href="  https://copilot.microsoft.com/chats/Jp7r57FCvgUwmqo7Kq1uZ " target="_blank">
+      <img src="  https://img.icons8.com/?size=100&id=PxQoyT1s0uFh&format=png&color=000000 "/> Copilot
+    </a>
+    <a href="  https://chat.mistral.ai/chat " target="_blank">
+      <img src="  https://img.icons8.com/fluency/48/artificial-intelligence.png "/> Mistral Ai
+    </a>
+    <a href="https://x.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/twitter.png"/> Twitter (X)
+</a>
+<a href="https://instagram.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/instagram-new.png"/> Instagram
+</a>
+    <a href="  https://builder.niotron.com/login.jsp " target="_blank">
+      <img src="  https://img.icons8.com/?size=100&id=OViY01sBDwni&format=png&color=000000 "/> Niotron
+    </a>
+
+<a href="https://www.audiomack.com" target="_blank">
+  <img src="https://img.icons8.com/?size=100&id=3SkftpmIxM5e&format=png&color=000000"/> Audiomack
+</a>
+<a href="https://www.bilibili.tv/en" target="_blank">
+  <img src="https://img.icons8.com/?size=100&id=5E24fZ9ORelo&format=png&color=000000"/> Bilibili
+</a>
+</a>
+    <a href="  https://moviebox.ng/?utm_source=h5seo_www.google.com " target="_blank">
+      <img src="  https://img.icons8.com/?size=100&id=2998&format=png&color=000000 "/> Moviebox
+    </a>
+</a>
+    <a href=" https://www.dailymotion.com/in  " target="_blank">
+      <img src="   https://img.icons8.com/?size=100&id=kjPOYPirujKx&format=png&color=000000"/> Dailymotion
+    </a>
+    <a href=" https://cineb.rs/  " target="_blank">
+      <img src="   https://img.icons8.com/?size=100&id=P7FwluitWCr3&format=png&color=000000"/> Cineb
+    </a>
+  
+  </div>
+  <footer>Designed by Mr.Vexin 🔪</footer>
+</div>
+
+<!-- Secret Page -->
+<div id="secretPage">
+  <h1>Secret Room</h1>
+  <h6>use VPN 🤫</h6>
+  
+  <button id="backButton">Go Back Home</button>
+  <div class="links">  
+      
+      <a href="https://bangla-text-reader-wbvx.vercel.app/" target="_blank">
+      <img src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000"/>Text Reader
+    <a href="https://pornhub.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/play-button-circled.png"/> Pornhub
+</a>
+<a href="https://xvideos.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video.png"/> XVideos
+</a>
+<a href="https://xhamster.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/hamster.png"/> XHamster
+</a>
+<a href="https://xnxx.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/x.png"/> XNXX
+</a>
+<a href="https://youjizz.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/youtube-play.png"/> YouJizz
+</a>
+<a href="https://redtube.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/cinema-.png"/> Redtube
+</a>
+<a href="https://tube8.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/retro-tv.png"/> Tube8
+</a>
+<a href="https://spankbang.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/favorite-folder.png"/> SpankBang
+</a>
+<a href="https://3movs.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/3-circle.png"/> 3Movs
+</a>
+<a href="https://yespornplease.se/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/ok.png"/> YesPornPlease
+</a>
+<a href="https://hclips.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video.png"/> HClips
+</a>
+<a href="https://javhd.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/japan.png"/> JavHD
+</a>
+<a href="https://mofos.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/bold.png"/> Mofos
+</a>
+<a href="https://teamskeet.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/users.png"/> Team Skeet
+</a>
+<a href="https://porndoe.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/user-male.png"/> PornDoe
+</a>
+<a href="https://porn.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/play-button-circled.png"/> Porn.com
+</a>
+<a href="https://motherless.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/ghost.png"/> Motherless
+</a>
+<a href="https://sextvx.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/retro-tv.png"/> Sextvx
+</a>
+<a href="https://eroticmonkey.ch/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/monkey.png"/> EroticMonkey
+</a>
+<a href="https://fux.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/heart-with-arrow.png"/> Fux
+</a>
+<a href="https://lustery.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/love.png"/> Lustery
+</a>
+<a href="https://vrporn.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/vr-headset.png"/> VRPorn
+</a>
+<a href="https://trueamateurs.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/star.png"/> TrueAmateurs
+</a>
+<a href="https://watchmygf.me/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/couple.png"/> WatchMyGF
+</a>
+<a href="https://amateursgonewild.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/cinema-.png"/> AmateursGoneWild
+</a>
+<a href="https://adultfriendfinder.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/friends.png"/> AdultFriendFinder
+</a>
+<a href="https://livejasmin.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/live-video-on.png"/> LiveJasmin
+</a>
+<a href="https://stripchat.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/stripper.png"/> Stripchat
+</a>
+<a href="https://newgrounds.com/portal/view/654555" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/movies-folder.png"/> Newgrounds Adult
+</a>
+<a href="https://slutroulette.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video-call.png"/> SlutRoulette
+</a>
+<a href="https://camsoda.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/webcam.png"/> CamSoda
+</a>
+<a href="https://cam4.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video-call.png"/> Cam4
+</a>
+<a href="https://bongacams.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video-call.png"/> BongaCams
+</a>
+<a href="https://mylf.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/like.png"/> MYLF
+</a>
+<a href="https://badjojo.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/alert.png"/> BadJojo
+</a>
+<a href="https://onlyfans.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/online-support.png"/> OnlyFans
+</a>
+<a href="https://bravotube.net/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video-playlist.png"/> BravoTube
+</a>
+<a href="https://watchporn.to/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video-call.png"/> WatchPorn
+</a>
+<a href="https://perfectgirls.net/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/girl.png"/> PerfectGirls
+</a>
+<a href="https://sex.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/sex.png"/> Sex.com
+</a>
+<a href="https://eporner.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/video.png"/> Eporner
+</a>
+<a href="https://pornhat.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/hat.png"/> PornHat
+</a>
+<a href="https://hdporn.net/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/hd.png"/> HDPorn
+</a>
+<a href="https://faphouse.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/home.png"/> FapHouse
+</a>
+<a href="https://pichunter.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/hunter.png"/> PicHunter
+</a>
+<a href="https://pornpics.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/picture.png"/> PornPics
+</a>
+<a href="https://porntrex.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/film-reel.png"/> PornTrex
+</a>
+<a href="https://wowporn.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/wow.png"/> WowPorn
+</a>
+<a href="https://hdtube.porn/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/film.png"/> HDTube
+</a>
+<a href="https://xempire.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/empire.png"/> XEmpire
+</a>
+<a href="https://slutroulette.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/dice.png"/> SlutRoulette
+</a>
+<a href="https://camsoda.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/soda.png"/> CamSoda
+</a>
+<a href="https://cam4.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/camera.png"/> Cam4
+</a>
+<a href="https://bongacams.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/bong.png"/> BongaCams
+</a>
+<a href="https://mylf.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/woman.png"/> MYLF
+</a>
+<a href="https://badjojo.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/joystick.png"/> BadJojo
+</a>
+<a href="https://onlyfans.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/fan.png"/> OnlyFans
+</a>
+<a href="https://bravotube.net/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/bravo.png"/> BravoTube
+</a>
+<a href="https://watchporn.to/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/eye.png"/> WatchPorn
+</a>
+<a href="https://perfectgirls.net/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/girl.png"/> PerfectGirls
+</a>
+<a href="https://hclips.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/clapperboard.png"/> HClips
+</a>
+<a href="https://javhd.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/japan.png"/> JavHD
+</a>
+<a href="https://mofos.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/m.png"/> Mofos
+</a>
+<a href="https://teamskeet.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/team.png"/> Team Skeet
+</a>
+<a href="https://porndoe.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/user.png"/> PornDoe
+</a>
+<a href="https://porn.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/play-button.png"/> Porn.com
+</a>
+<a href="https://motherless.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/mother.png"/> Motherless
+</a>
+<a href="https://sextvx.com/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/tv.png"/> Sextvx
+</a>
+<a href="https://eroticmonkey.ch/" target="_blank">
+  <img src="https://img.icons8.com/fluency/48/monkey.png"/> EroticMonkey
+</a>
+  </div>
+ 
+</div>
+
+<script>
+  let tapCount = 0;
+
+document.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(err => {
+      console.log(`Fullscreen error: ${err.message}`);
+    });
+  }
+});
+
+// Tap to open secret page
+document.addEventListener('click', () => {
+  tapCount++;
+  if (tapCount >= 15) {
+    document.getElementById('homePage').style.display = 'none';
+    document.getElementById('secretPage').style.display = 'block';
+    history.pushState({ page: "secret" }, "secret", "#secret"); // virtual history push
+    tapCount = 0;
+  }
+});
+
+// Back button to home page
+document.getElementById('backButton').addEventListener('click', () => {
+  document.getElementById('secretPage').style.display = 'none';
+  document.getElementById('homePage').style.display = 'block';
+  history.pushState(null, "", "#home"); // optional
+});
+
+// Detect browser back button press
+window.addEventListener("popstate", (event) => {
+  if (event.state && event.state.page === "secret") {
+    document.getElementById('homePage').style.display = 'none';
+    document.getElementById('secretPage').style.display = 'block';
+  } else {
+    document.getElementById('secretPage').style.display = 'none';
+    document.getElementById('homePage').style.display = 'block';
+  }
+});
+</script>
+
+</body>
+</html>
